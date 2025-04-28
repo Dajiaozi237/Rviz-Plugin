@@ -1,0 +1,9 @@
+<library path="math_rviz_plugin_py">
+  <class 
+    name="math_rviz_plugin_py/MathPanel"
+    type="math_rviz_plugin_py.math_panel.MathPanel"  
+    base_class_type="rviz_common::Panel"
+  >
+    <description>A math operation panel</description>
+  </class>
+</library>

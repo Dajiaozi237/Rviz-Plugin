@@ -1,0 +1,9 @@
+<library path="calculator_plugin">
+  <class name="calculator_plugin/Calculator"
+         type="calculator_plugin::CalculatorPanel"
+         base_class_type="rviz_common::Panel">
+    <description>
+      A panel for calculating sum or product of three numbers
+    </description>
+  </class>
+</library>

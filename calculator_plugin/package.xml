@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>calculator_plugin</name>
+  <version>0.1.0</version>
+  <description>RViz plugin for basic math operations</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>pluginlib</depend>
+  <depend>rviz_common</depend>
+  <depend>qtbase5-dev</depend>
+
+  <exec_depend>libqt5-core</exec_depend>
+  <exec_depend>libqt5-gui</exec_depend>
+  <exec_depend>libqt5-widgets</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
